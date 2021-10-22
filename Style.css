@@ -41,4 +41,42 @@ h1{
 .area-part img {
     width: 100%;
 }
+#Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5%;
+}
+.Experiences-area{
+    display: flex;
+
+}
+
+.Experiences-area h3{
+    color: orange;
+}
+.Experiences-area div{
+    box-shadow: 10px 15px 5px red;
+    height: 10%;
+    margin: 15px;
+}
+#ful-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red,tomato );
+    border-image-slice: 1;
+    padding: 10px;
+
+}
+#Web-develop{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, cyan, blue );
+    border-image-slice: 1;
+    padding: 10px;
+ 
+
+}
+footer p{
+    text-align: center;
+}
+
 
